@@ -9,12 +9,12 @@
 # shipping_db_password: "{{ vault_shipping_password }}"
 
 
-mongodb_host: mongodb.rajdaws92s.store
-redis_host: redis.rajdaws92s.store
-mysql_host: mysql.rajdaws92s.store
-rabbitmq_host: rabbitmq.rajdaws92s.store
-catalogue_host: catalogue.rajdaws92s.store
-user_host: user.rajdaws92s.store
-cart_host: cart.rajdaws92s.store
-shipping_host: shipping.rajdaws92s.store
-payment_host: payment.rajdaws92s.store
+mongodb_host: mongodb-{{ env }}-{{ env }}.rajdaws92s.store
+redis_host: redis-{{ env }}.rajdaws92s.store
+mysql_host: mysql-{{ env }}.rajdaws92s.store
+rabbitmq_host: rabbitmq-{{ env }}.rajdaws92s.store
+catalogue_host: catalogue-{{ env }}.rajdaws92s.store
+user_host: user-{{ env }}.rajdaws92s.store
+cart_host: cart-{{ env }}.rajdaws92s.store
+shipping_host: shipping-{{ env }}.rajdaws92s.store
+payment_host: payment-{{ env }}.rajdaws92s.store
