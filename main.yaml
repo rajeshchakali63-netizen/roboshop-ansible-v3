@@ -1,5 +1,6 @@
-- name: configure {{ component }}
+- name: "configure {{ component }}"
   hosts: "{{ component }}"
+  connections: local
   become: yes
   roles:  # By default it checks in roles folder in current directory
   - "{{ component }}"
