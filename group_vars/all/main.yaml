@@ -9,7 +9,7 @@
 # shipping_db_password: "{{ vault_shipping_password }}"
 
 
-mongodb_host: mongodb-{{ env }}-{{ env }}.rajdaws92s.store
+mongodb_host: mongodb-{{ env }}.rajdaws92s.store
 redis_host: redis-{{ env }}.rajdaws92s.store
 mysql_host: mysql-{{ env }}.rajdaws92s.store
 rabbitmq_host: rabbitmq-{{ env }}.rajdaws92s.store
